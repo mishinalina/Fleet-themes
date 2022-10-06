@@ -71,7 +71,7 @@
         "dialog.editor.currentLine.@focused.fill": "363445",
         "dialog.tab.fill": "Transparent",
         "dialog.tab.@selected.border": "904AC2",
-        "dialog.tab.@hovered.fill": "3F3A4F",
+        "dialog.tab.@hovered.fill": "3E3A4E",
         "dialog.tab.pane.fill": "2C2C3B",
 
         "diff.added.fill": "39703F",
