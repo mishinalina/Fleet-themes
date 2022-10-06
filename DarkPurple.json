@@ -51,6 +51,9 @@
         "checkbox.@focused.border": "8A64B3",
         "checkbox.@disabled.fill": "2C2C3B",
 
+        "completion.match.text": "ED94FF",
+        "completion.match.fill": "Transparent",
+
         "dangerous.button.fill": "DD3962",
         "dangerous.button.focusRing": "A72A3F",
         "dangerous.button.text": "White",
@@ -67,7 +70,7 @@
         "dialog.editor.currentLine.fill": "363445",
         "dialog.editor.currentLine.@focused.fill": "363445",
         "dialog.tab.fill": "Transparent",
-        "dialog.tab.@selected.border": "D0D0D9",
+        "dialog.tab.@selected.border": "904AC2",
         "dialog.tab.@hovered.fill": "3F3A4F",
         "dialog.tab.pane.fill": "2C2C3B",
 
@@ -75,6 +78,9 @@
         "diff.deleted.fill": "DFDFE6",
         "diff.modified.fill": "3E7AB3",
         "diff.conflict.fill": "B5791F",
+        "diff.added.file": "76B366",
+        "diff.modified.file": "62BAF5",
+        "diff.conflict.file": "D5756C",
 
         "dnd.fill": "FFFFFF20%",
 
@@ -163,7 +169,7 @@
         "simpleToggle.strip.fill": "6B388F",
         
         "match.fill": "CCA929",
-        "match.text": "ED94FF",
+        "match.text": "000000",
 
         "tab.border": "Transparent",
         "tab.fill": "2C2C3B",
