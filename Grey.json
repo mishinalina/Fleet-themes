@@ -5,16 +5,16 @@
         "theme.version": 5
     },
     "colors": {
-        "border": "C4C4C4",
+        "border": "D1D1D1",
         "fill": "White",
         "focusRing": "97C3F3",
-        // TODO
-        "shadow": "1D1D26",
-        "text": "383838",
+        "shadow": "2D2D2D",
+        "text": "1F1F1F",
 
         "@focused.border": "87AFDA",
 
         "@secondary.text": "808080",
+        "@secondary.fill": "E0E0E0",
 
         "@placeholder.text": "808080",
 
@@ -31,212 +31,243 @@
 
         "@success.text": "59A869",
 
-        "button.border": "C4C4C4",
+        "button.border": "D1D1D1",
         "button.fill": "White",
         "button.text": "383838",
         "button.@disabled.border": "D1D1D1",
         "button.@disabled.fill": "Transparent",
         "button.@disabled.text": "8C8C8C",
         "button.@focused.border": "87AFDA",
-//        "button.@hovered.fill": "4C4766",
-//        "button.@hovered.text": "383838",
-//        "button.@pressed.fill": "565073",
-//        "button.@pressed.text": "383838",
+        "button.@hovered.fill": "FAFAFA",
+        "button.@pressed.fill": "F2F2F2",
 
+        "checkbox.fill": "White",
         "checkbox.border": "ADADAD",
         "checkbox.icon": "White",
-        "checkbox.fill": "White",
         "checkbox.@checked.fill": "4F9EE3",
-        "checkbox.@checked.border": "4B97D9",
+        "checkbox.@checked.border": "4F9EE3",
         "checkbox.@checked.@focused.fill": "4F9EE3",
         "checkbox.@checked.@focused.border": "ACCFF7",
         "checkbox.@checked.@hovered.fill": "4F9EE3",
-        "checkbox.@checked.@hovered.border": "4B97D9",
+        "checkbox.@checked.@hovered.border": "4F9EE3",
+        "checkbox.@checked.@focused.@hovered.fill": "4F9EE3",
+        "checkbox.@checked.@focused.@hovered.border": "ACCFF7",
+        "checkbox.@partial.fill": "4F9EE3",
+        "checkbox.@partial.border": "4F9EE3",
+        "checkbox.@partial.@focused.fill": "4F9EE3",
+        "checkbox.@partial.@focused.border": "ACCFF7",
+        "checkbox.@partial.@hovered.fill": "4F9EE3",
+        "checkbox.@partial.@hovered.border": "4F9EE3",
+        "checkbox.@partial.@focused.@hovered.fill": "4F9EE3",
+        "checkbox.@partial.@focused.@hovered.border": "ACCFF7",
+        "checkbox.@partial.@pressed.fill": "4F9EE3",
+        "checkbox.@partial.@pressed.border": "4F9EE3",
+        "checkbox.@partial.@focused.@pressed.fill": "4F9EE3",
+        "checkbox.@partial.@focused.@pressed.border": "ACCFF7",
+        "checkbox.@disabled.fill": "Transparent",
         "checkbox.@disabled.border": "BDBDBD",
         "checkbox.@disabled.icon": "ABABAB",
         "checkbox.@disabled.text": "8C8C8C",
         "checkbox.@focused.border": "7B9FC7",
-        "checkbox.@disabled.fill": "Transparent",
+        "checkbox.@focused.@hovered.border": "7B9FC7",
+        "checkbox.@focused.@pressed.fill": "White",
+        "checkbox.@focused.@pressed.border": "7B9FC7",
 
-        "dangerous.button.fill": "D90019",
-        "dangerous.button.focusRing": "A72A3F",
+        "completion.match.text": "0081DE",
+        "completion.match.fill": "Transparent",
+
+        "dangerous.button.fill": "C93E3E",
+        "dangerous.button.focusRing": "DD7178",
         "dangerous.button.text": "White",
         "dangerous.button.border": "Transparent",
-        "dangerous.button.@hovered.fill": "DF476D",
-        "dangerous.button.@pressed.fill": "E14F73",
-        "dangerous.button.@disabled.border": "45405C",
+        "dangerous.button.@hovered.fill": "BF3B3B",
+        "dangerous.button.@pressed.fill": "B53838",
+        "dangerous.button.@disabled.border": "D1D1D1",
         "dangerous.button.@disabled.fill": "Transparent",
         "dangerous.button.@disabled.text": "8C8C8C",
-        "dangerous.button.@focused.border": "ED7388",
+        "dangerous.button.@focused.border": "F2A2A3",
 
         "dialog.fill": "F2F3F5",
         "dialog.editor.fill": "F2F3F5",
-        "dialog.editor.currentLine.fill": "363445",
-        "dialog.editor.currentLine.@focused.fill": "363445",
-        "dialog.tab.fill": "Transparent",
-        "dialog.tab.@selected.border": "D0D0D9",
-        "dialog.tab.@hovered.fill": "3F3A4F",
+        "dialog.editor.currentLine.fill": "EAEBED",
+        "dialog.editor.currentLine.@focused.fill": "EAEBED",
+        "dialog.tab.fill": "F2F3F5",
         "dialog.tab.pane.fill": "F2F3F5",
+        "dialog.tab.@selected.border": "4787D1",
+        "dialog.tab.@hovered.fill": "E3E5E8",
 
-        "diff.added.fill": "39703F",
-        "diff.deleted.fill": "DFDFE6",
-        "diff.modified.fill": "3E7AB3",
-        "diff.conflict.fill": "B5791F",
+        "diff.added.fill": "BEE6BE",
+        "diff.deleted.fill": "D6D6D6",
+        "diff.modified.fill": "CAD9FA",
+        "diff.conflict.fill": "FFD5CC",
+        "diff.added.file": "0A7700",
+        "diff.modified.file": "0032A0",
+        "diff.conflict.file": "FF0000",
 
-        "dnd.fill": "FFFFFF20%",
+        "dnd.fill": "407FC720%",
 
-        "interline.block.fill": "252533",
-        "interline.editor.currentLine.fill": "363445",
-        "interline.editor.currentLine.@focused.fill": "363445",
+        "interline.block.fill": "F2F3F5",
+        "interline.editor.currentLine.fill": "EAEBED",
+        "interline.editor.currentLine.@focused.fill": "EAEBED",
 
         "editor.fill": "FAFBFC",
         "editor.text": "Grey",
-        "editor.braceHighlight.fill": "4E4766",
+        "editor.braceHighlight.fill": "BCE0E0",
         "editor.caret.fill": "Black",
         "editor.currentLine.fill": "F2F3F5",
         "editor.currentLine.@focused.fill": "F2F3F5",
-        "editor.lineNumber.text": "575566",
-        "editor.lineNumber.@selected.text": "9A97A8",
-        "editor.whitespace.text": "8B85A6",
+        "editor.lineNumber.text": "B3B3B3",
+        "editor.lineNumber.@selected.text": "808080",
+        "editor.whitespace.text": "ADADAD",
 
         "header.fill": "F2F3F5",
 
         "icon.border": "Transparent",
-        "icon.blue.fill": "4D85FF",
-        "icon.gray.fill": "A4A1B3",
+        "icon.blue.fill": "389FD6",
+        "icon.gray.fill": "6E6E6E",
         "icon.green.fill": "59A869",
-        "icon.orange.fill": "CABA2D",
-        "icon.red.fill": "C63A5D",
+        "icon.orange.fill": "EDA200",
+        "icon.red.fill": "DB5860",
 
         "icon.button.border": "Transparent",
         "icon.button.fill": "Transparent",
-        "icon.button.@disabled.text": "8C8C8C",
-        "icon.button.@focused.border": "814F9E",
-        "icon.button.@hovered.fill": "453E57",
-        "icon.button.@pressed.fill": "4C4766",
-        "icon.button.@selected.fill": "D1D1D1",
-        "icon.button.@selected.text": "B279F2",
-        "icon.button.@selected.@disabled.fill": "323245",
-        "icon.button.@selected.@focused.border": "814F9E",
-        "icon.button.@selected.@focused.fill": "D1D1D1",
-        "icon.button.@selected.@focused.@hovered.fill": "D1D1D1",
-        "icon.button.@selected.@hovered.fill": "D1D1D1",
-        "icon.button.@selected.@hovered.text": "B279F2",
-        "icon.button.@selected.@pressed.text": "B279F2",
+        "icon.button.@disabled.text": "C1C1C1",
+        "icon.button.@focused.border": "4787D1",
+        "icon.button.@hovered.fill": "DFDFDF",
+        "icon.button.@pressed.fill": "D1D1D1",
+        "icon.button.@selected.fill": "DAE4ED",
+        "icon.button.@selected.text": "389FD6",
+        "icon.button.@selected.@disabled.fill": "E8E8E8",
+        "icon.button.@selected.@focused.border": "4787D1",
+        "icon.button.@selected.@focused.fill": "DAE4ED",
+        "icon.button.@selected.@focused.text": "389FD6",
+        "icon.button.@selected.@focused.@hovered.fill": "CCDDED",
+        "icon.button.@selected.@focused.@hovered.text": "389FD6",
+        "icon.button.@selected.@hovered.fill": "CCDDED",
+        "icon.button.@selected.@hovered.text": "389FD6",
+        "icon.button.@selected.@pressed.fill": "C2D9ED",
+        "icon.button.@selected.@pressed.text": "389FD6",
 
-        "input.@disabled.border": "45405C",
+        "input.@disabled.border": "D1D1D1",
         "input.@disabled.fill": "Transparent",
         "input.@disabled.text": "8C8C8C",
-        "input.@error.border": "993750",
-        "input.@focused.border": "814F9E",
-        "input.@error.@focused.border": "D4677A",
-        "input.@error.@focused.focusRing": "993750",
+        "input.@focused.border": "87AFDA",
+        "input.@error.border": "D87B7B",
+        "input.@error.@focused.border": "D87B7B",
+        "input.@error.@focused.focusRing": "FA9D9D",
 
-        "link.text": "7094ff",
+        "link.text": "2163A6",
 
-        "list.cursor.border": "87AFDA",
+        "list.cursor.border": "4787D1",
 
-        "popup.border": "4e4b61",
+        "popup.border": "B4B5B6",
 
-        "primary.button.fill": "6B388F",
-        "primary.button.focusRing": "784299",
-        "primary.button.border": "7C519C",
-        "primary.button.@hovered.fill": "744496",
-        "primary.button.@pressed.fill": "784A99",
-        "primary.button.@disabled.border": "45405C",
+        "primary.button.fill": "4E8BC9",
+        "primary.button.text": "White",
+        "primary.button.focusRing": "84B8F0",
+        "primary.button.border": "4E8BC9",
+        "primary.button.@hovered.fill": "4A84BF",
+        "primary.button.@pressed.fill": "467DB5",
+        "primary.button.@disabled.border": "D1D1D1",
         "primary.button.@disabled.fill": "Transparent",
         "primary.button.@disabled.text": "8C8C8C",
-        "primary.button.@focused.border": "8465A6",
+        "primary.button.@focused.border": "A9C9F5",
 
-        "progress.fill": "A85ED6",
-        "progress.container.fill": "1D1D26",
-        "progress.@indeterminate.@gradient.fill": "674182",
+        "progress.fill": "1E82E6",
+        "progress.container.fill": "D1D1D1",
+        "progress.@indeterminate.@gradient.fill": "91C5F2",
 
-        "scrollbar.fill": "FFFFFF30%",
-        "scrollbar.@dimmed.fill": "FFFFFF20%",
-        "scrollbar.@hovered.fill": "FFFFFF40%",
+        "scrollbar.fill": "00000030%",
+        "scrollbar.@dimmed.fill": "00000020%",
+        "scrollbar.@hovered.fill": "00000040%",
 
-        "selection.fill": "713A91",
-        "selection.@dimmed.fill": "3D3952",
-        "selection.@hovered.fill": "2C2C3B",
+        "selection.fill": "C0D8F0",
+        "selection.@dimmed.fill": "E0E0E0",
+        "selection.@hovered.fill": "F0F0F0",
 
         "separator.fill": "E3E5E8",
         "mainSplit.separator.fill": "E3E5E8",
 
-        "simpleToggle.circle.@disabled.fill": "D0D0D9",
-        "simpleToggle.circle.fill": "D0D0D9",
-        "simpleToggle.strip.@disabled.@hovered.fill": "666380",
-        "simpleToggle.strip.@disabled.fill": "666380",
-        "simpleToggle.strip.fill": "6B388F",
+        "simpleToggle.circle.@disabled.fill": "White",
+        "simpleToggle.circle.fill": "White",
+        "simpleToggle.strip.@disabled.@hovered.fill": "C4C4C4",
+        "simpleToggle.strip.@disabled.fill": "C4C4C4",
+        "simpleToggle.strip.fill": "4D8ACA",
 
-        "match.fill": "CCA929",
-        "match.text": "ED94FF",
+        "match.fill": "FFD080",
+        "match.text": "000000",
 
         "tab.border": "Transparent",
         "tab.fill": "F2F3F5",
         "tab.@selected.fill": "FAFBFC",
-        "tab.@hovered.fill": "3E3A4E",
+        "tab.@hovered.fill": "E3E5E8",
         "tab.pane.fill": "F2F3F5",
-        "tab.@focused.@selected.border": "904AC2",
+        "tab.@focused.@selected.border": "4787D1",
         "tab.@focused.@selected.fill": "FAFBFC",
 
-        "terminal.ansiBlack.fill": "484848",
-        "terminal.ansiBlack.text": "B3B3B3",
-        "terminal.ansiBlue.fill": "405C80",
-        "terminal.ansiBlue.text": "1D6BCC",
-        "terminal.ansiBrightBlack.fill": "424242",
-        "terminal.ansiBrightBlack.text": "595959",
-        "terminal.ansiBrightBlue.fill": "314966",
-        "terminal.ansiBrightBlue.text": "0067E6",
-        "terminal.ansiBrightCyan.fill": "2F5F66",
-        "terminal.ansiBrightCyan.text": "00BAD6",
-        "terminal.ansiBrightGreen.fill": "2D6654",
-        "terminal.ansiBrightGreen.text": "009E6F",
-        "terminal.ansiBrightMagenta.fill": "4E3166",
-        "terminal.ansiBrightMagenta.text": "EB4DDE",
-        "terminal.ansiBrightRed.fill": "66333A",
-        "terminal.ansiBrightRed.text": "C7001B",
+        "terminal.ansiBlack.fill": "000000",
+        "terminal.ansiBlack.text": "000000",
+        "terminal.ansiBlue.fill": "508ED9",
+        "terminal.ansiBlue.text": "2686FF",
+        "terminal.ansiBrightBlack.fill": "b7b7b7",
+        "terminal.ansiBrightBlack.text": "b7b7b7",
+        "terminal.ansiBrightBlue.fill": "54A1FF",
+        "terminal.ansiBrightBlue.text": "0073FF",
+        "terminal.ansiBrightCyan.fill": "35E6E6",
+        "terminal.ansiBrightCyan.text": "24E0FF",
+        "terminal.ansiBrightGreen.fill": "3DD456",
+        "terminal.ansiBrightGreen.text": "33F253",
+        "terminal.ansiBrightMagenta.fill": "B63DDB",
+        "terminal.ansiBrightMagenta.text": "CC26FF",
+        "terminal.ansiBrightRed.fill": "F06C5D",
+        "terminal.ansiBrightRed.text": "FCA4A7",
         "terminal.ansiBrightWhite.fill": "FAFBFC",
-        "terminal.ansiBrightWhite.text": "0D0D0D",
-        "terminal.ansiBrightYellow.fill": "665234",
-        "terminal.ansiBrightYellow.text": "E09119",
-        "terminal.ansiCyan.fill": "477880",
-        "terminal.ansiCyan.text": "2CCCE6",
-        "terminal.ansiGreen.fill": "437A6A",
-        "terminal.ansiGreen.text": "88DBD7",
-        "terminal.ansiMagenta.fill": "6B5280",
-        "terminal.ansiMagenta.text": "EB83E2",
-        "terminal.ansiRed.fill": "804A52",
-        "terminal.ansiRed.text": "C73649",
-        "terminal.ansiWhite.fill": "898989",
-        "terminal.ansiWhite.text": "212121",
-        "terminal.ansiYellow.fill": "80653E",
-        "terminal.ansiYellow.text": "FAD075",
+        "terminal.ansiBrightWhite.text": "ffffff",
+        "terminal.ansiBrightYellow.fill": "DBC051",
+        "terminal.ansiBrightYellow.text": "FFD83B",
+        "terminal.ansiCyan.fill": "84FAFA",
+        "terminal.ansiCyan.text": "20B3B3",
+        "terminal.ansiGreen.fill": "7BBA85",
+        "terminal.ansiGreen.text": "4DBB5F",
+        "terminal.ansiMagenta.fill": "DB75FA",
+        "terminal.ansiMagenta.text": "CC37FA",
+        "terminal.ansiRed.fill": "CE0505",
+        "terminal.ansiRed.text": "EF341E",
+        "terminal.ansiWhite.fill": "e5e5e5",
+        "terminal.ansiWhite.text": "e5e5e5",
+        "terminal.ansiYellow.fill": "FAE387",
+        "terminal.ansiYellow.text": "B0993C",
 
-        "toggle.border": "544F70",
-        "toggle.fill": "45405C",
+        "toggle.border": "D1D1D1",
+        "toggle.fill": "White",
         "toggle.@disabled.fill": "Transparent",
         "toggle.@disabled.text": "8C8C8C",
-        "toggle.@focused.border": "814F9E",
-        "toggle.@hovered.fill": "4C4766",
-        "toggle.@pressed.fill": "565073",
-        "toggle.@selected.fill": "6B388F",
+        "toggle.@focused.border": "87AFDA",
+        "toggle.@hovered.fill": "FAFAFA",
+        "toggle.@pressed.fill": "F2F2F2",
+        "toggle.@selected.fill": "4E8BC9",
+        "toggle.@selected.text": "White",
         "toggle.@disabled.border": "Transparent",
-        "toggle.@selected.border": "7C519C",
-        "toggle.@selected.@disabled.fill": "2C2C3B",
-        "toggle.@selected.@focused.border": "8465A6",
-        "toggle.@selected.@focused.fill": "6B388F",
-        "toggle.@selected.@hovered.fill": "744496",
-        "toggle.@selected.@pressed.fill": "784A99",
-        "toggle.@selected.@focused.@hovered.fill": "744496",
-        "toggle.@selected.@focused.@pressed.fill": "784A99",
+        "toggle.@selected.border": "4077B3",
+        "toggle.@selected.@disabled.fill": "E8E8E8",
+        "toggle.@selected.@focused.border": "A9C9F5",
+        "toggle.@selected.@focused.fill": "4E8BC9",
+        "toggle.@selected.@focused.text": "White",
+        "toggle.@selected.@hovered.text": "White",
+        "toggle.@selected.@hovered.fill": "4E8BC9",
+        "toggle.@selected.@pressed.text": "White",
+        "toggle.@selected.@pressed.fill": "4E8BC9",
+        "toggle.@selected.@focused.@hovered.fill": "4E8BC9",
+        "toggle.@selected.@focused.@hovered.text": "White",
+        "toggle.@selected.@focused.@pressed.fill": "4E8BC9",
+        "toggle.@selected.@focused.@pressed.text": "White",
 
-        "tool.fill": "F2F3F5",
+        "tool.fill": "FAFBFC",
 
-        "tooltip.fill": "463f57",
+        "tooltip.fill": "F2F3F5",
 
-        "tree.cursor.border": "87AFDA",
-        "tree.@focused.border": "87AFDA",
+        "tree.cursor.border": "4787D1",
+        "tree.@focused.border": "4787D1",
 
         "windows.close.button.@hovered.fill": "C42B1C",
         "windows.close.button.@hovered.text": "White",
@@ -259,23 +290,22 @@
             }
         },
         "editor.selection": {
-            "bgColor": "214283",
+            "bgColor": "C0D8F0",
             "layer": 2000,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "editor.search.results": {
-            "bgColor": "2D5959",
-            "stripeColor": "3D9999",
+            "bgColor": "BFDEBA",
+            "stripeColor": "71B362",
             "layer": 100,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "editor.rename.entries": {
-            "bgColor": "113623",
-            "stripeColor": "268053",
+            "bgColor": "CCCCFF",
+            "stripeColor": "8E8EB2",
             "layer": 100,
-            "fullLine": false,
             "showEmptyIntervals": true
         },
         "editor.rename.current": {
@@ -283,24 +313,24 @@
             "fullLine": false,
             "layer": 100,
             "decoration": {
-                "color": "93A6F5",
+                "color": "0055FF",
                 "style": "BORDER"
-            }
+        }
         },
         "comment": {
-            "fgColor": "676773",
+            "fgColor": "808080",
             "layer": 5,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "comment.parameter": {
-            "fgColor": "5A6E5A",
+            "fgColor": "3D3D3D",
             "layer": 5,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "comment.parameter.value": {
-            "fgColor": "8C6154",
+            "fgColor": "3D3D3D",
             "layer": 5,
             "fullLine": false,
             "showEmptyIntervals": false
@@ -314,77 +344,77 @@
             }
         },
         "link.hovered": {
-            "fgColor": "50AFDE",
+            "fgColor": "185B9E",
             "layer": 100,
             "fullLine": false,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "4D7F99",
+                "color": "185B9E",
                 "style": "SOLID",
                 "position": "UNDER",
                 "thickness": 1.0
             }
         },
         "keyword": {
-            "fgColor": "E0957B",
+            "fgColor": "071591",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "keyword.typeModifier": {
-            "fgColor": "E0957B",
+            "fgColor": "071591",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "metadata": {
-            "fgColor": "85A658",
+            "fgColor": "808000",
             "layer": 25,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "number": {
-            "fgColor": "4DACF0",
+            "fgColor": "1740E6",
             "layer": 10,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "boolean": {
-            "fgColor": "E0957B",
+            "fgColor": "071591",
             "layer": 10,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "string": {
-            "fgColor": "62A362",
+            "fgColor": "106B10",
             "layer": 15,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "string.binary": {
-            "fgColor": "A5C261",
+            "fgColor": "616605",
             "layer": 15
         },
         "string.escape": {
-            "fgColor": "E0957B",
+            "fgColor": "B81692",
             "layer": 25,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "string.escape.alternative": {
-            "fgColor": "FF8D1C",
+            "fgColor": "5511BF",
             "layer": 25,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "string.formatItem": {
-            "fgColor": "E0957B",
+            "fgColor": "784E30",
             "layer": 25,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "string.regexp": {
-            "fgColor": "6897BB",
+            "fgColor": "B81692",
             "layer": 25,
             "fullLine": false,
             "showEmptyIntervals": false
@@ -396,26 +426,26 @@
             "showEmptyIntervals": false
         },
         "identifier.this": {
-            "fgColor": "8888C6",
+            "fgColor": "8C4F7F",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "identifier.underCaret": {
-            "bgColor": "113623",
-            "stripeColor": "268053",
+            "bgColor": "E4E4FF",
+            "stripeColor": "BAA8FF",
             "layer": 1000,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "identifier.constant": {
-            "fgColor": "93A6F5",
+            "fgColor": "660E7A",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "identifier.constant.predefined": {
-            "fgColor": "E0957B",
+            "fgColor": "071591",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
@@ -432,7 +462,7 @@
             "fullLine": false,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "A6A6A6",
+                "color": "909090",
                 "style": "SOLID",
                 "position": "UNDER",
                 "thickness": 1.0
@@ -445,7 +475,7 @@
             "showEmptyIntervals": false
         },
         "identifier.function.declaration": {
-            "fgColor": "C7A65D",
+            "fgColor": "Grey",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
@@ -484,13 +514,13 @@
             "showEmptyIntervals": false
         },
         "identifier.field": {
-            "fgColor": "93A6F5",
+            "fgColor": "660E7A",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "identifier.field.static": {
-            "fgColor": "93A6F5",
+            "fgColor": "660E7A",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false,
@@ -523,19 +553,19 @@
             "showEmptyIntervals": false
         },
         "identifier.type.valueType": {
-            "fgColor": "93A6F5",
+            "fgColor": "660E7A",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "identifier.typeParameter": {
-            "fgColor": "37CCCC",
+            "fgColor": "20999D",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "identifier.namedArgument": {
-            "fgColor": "4DACF0",
+            "fgColor": "4A86E8",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
@@ -547,7 +577,7 @@
             "showEmptyIntervals": false
         },
         "markup.heading": {
-            "fgColor": "93A6F5",
+            "fgColor": "660E7A",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
@@ -571,13 +601,13 @@
             }
         },
         "markup.code.block": {
-            "fgColor": "62A362",
+            "fgColor": "106B10",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "markup.href": {
-            "fgColor": "50AFDE",
+            "fgColor": "185B9E",
             "layer": 20,
             "fullLine": false,
             "showEmptyIntervals": false,
@@ -603,111 +633,113 @@
             "showEmptyIntervals": false
         },
         "snippet": {
-            "bgColor": "214283",
+            "bgColor": "CCCCFF",
             "layer": 1,
             "fullLine": false,
             "showEmptyIntervals": true,
-            "borderRadius": "4.0"
+            "borderRadius": "2.0"
         },
         "debug.currentFrame": {
-            "bgColor": "0B3773",
+            "bgColor": "2154A6",
+            "fgColor": "White",
+            "stripeColor": "2154A6",
             "layer": -68,
             "fullLine": true,
             "showEmptyIntervals": false
         },
         "diff.added": {
-            "bgColor": "1D2E25",
-            "stripeColor": "42A651",
+            "bgColor": "E2F3E3",
+            "stripeColor": "AADEAA",
             "layer": -69,
             "fullLine": true,
             "showEmptyIntervals": false
         },
         "diff.added.word": {
-            "bgColor": "1E4723",
+            "bgColor": "BEE6BE",
             "layer": -60,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "diff.added.withBorder": {
-            "bgColor": "1D2E25",
+            "bgColor": "E2F3E3",
             "layer": -69,
             "fullLine": true,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "1E4723",
+                "color": "BEE6BE",
                 "style": "BORDER"
             }
         },
         "diff.added.empty": {
-            "bgColor": "42A651",
+            "bgColor": "AADEAA",
             "layer": -60,
             "fullLine": false,
             "showEmptyIntervals": true
         },
         "diff.deleted": {
-            "bgColor": "2E2E38",
-            "stripeColor": "BABAD9",
+            "bgColor": "ECECED",
+            "stripeColor": "C8C8C8",
             "layer": -69,
             "fullLine": true,
             "showEmptyIntervals": false
         },
         "diff.deleted.word": {
-            "bgColor": "474754",
+            "bgColor": "D6D6D6",
             "layer": -60,
             "fullLine": false,
             "showEmptyIntervals": true
         },
         "diff.deleted.withBorder": {
-            "bgColor": "2E2E38",
+            "bgColor": "ECECED",
             "layer": -69,
             "fullLine": true,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "474754",
+                "color": "D6D6D6",
                 "style": "BORDER"
             }
         },
         "diff.deleted.empty": {
-            "bgColor": "BABAD9",
+            "bgColor": "ADADAD",
             "layer": -60,
             "fullLine": false,
             "showEmptyIntervals": true
         },
         "diff.modified": {
-            "bgColor": "19324A",
+            "bgColor": "E7EDFB",
             "stripeColor": "3399FF",
             "layer": -69,
             "fullLine": true,
             "showEmptyIntervals": false
         },
         "diff.modified.word": {
-            "bgColor": "135280",
+            "bgColor": "B8CBF5",
             "layer": -60,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "diff.modified.withBorder": {
-            "bgColor": "19324A",
+            "bgColor": "E7EDFB",
             "layer": -69,
             "fullLine": true,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "135280",
+                "color": "B8CBF5",
                 "style": "BORDER"
             }
         },
         "diff.conflict.withBorder": {
-            "bgColor": "3F222C",
+            "bgColor": "FFD5CC",
             "layer": -68,
             "fullLine": true,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "732936",
+                "color": "FFC8BD",
                 "style": "BORDER"
             }
         },
         "problem.error": {
-            "stripeColor": "D90019",
+            "stripeColor": "CF5B56",
             "layer": 70,
             "fullLine": false,
             "showEmptyIntervals": false,
@@ -717,7 +749,7 @@
             }
         },
         "problem.error.badCharacter": {
-            "stripeColor": "D90019",
+            "stripeColor": "CF5B56",
             "layer": 100,
             "fullLine": false,
             "showEmptyIntervals": true,
@@ -727,19 +759,19 @@
             }
         },
         "problem.warning": {
-            "bgColor": "403618",
-            "stripeColor": "BF8915",
+            "bgColor": "F6EBBC",
+            "stripeColor": "EBC700",
             "layer": 60,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "problem.warning.weak": {
-            "stripeColor": "756D56",
+            "stripeColor": "D9CFAD",
             "layer": 40,
             "fullLine": false,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "B39500",
+                "color": "CCCCCC",
                 "style": "WAVY"
             }
         },
@@ -748,36 +780,28 @@
             "fullLine": false,
             "showEmptyIntervals": false,
             "decoration": {
-                "color": "C3C3C3",
+                "color": "404040",
                 "style": "SOLID",
                 "position": "THROUGH",
                 "thickness": 1.0
             }
         },
         "problem.info": {
-            "stripeColor": "756D56",
             "layer": 50,
-            "fullLine": false,
-            "showEmptyIntervals": false,
             "decoration": {
-                "color": "B39500",
-                "style": "BORDER"
+                "color": "A366C4"
             }
         },
         "problem.unknown": {
-            "fgColor": "F23F6C",
+            "fgColor": "D90016",
             "stripeColor": "D90019",
             "layer": 50,
             "fullLine": false,
             "showEmptyIntervals": false
         },
         "problem.unused": {
-            "fgColor": "8C8C8C",
-            "layer": 60,
-            "decoration": {
-                "color": "999999",
-                "style": "WAVY"
-            }
+            "fgColor": "808080",
+            "layer": 60
         },
         "transparent": {
         }
