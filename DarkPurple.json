@@ -14,6 +14,7 @@
         "@focused.border": "904AC2",
 
         "@secondary.text": "6D6A80",
+        "@secondary.fill": "45405C",
 
         "@placeholder.text": "6D6A80",
 
@@ -118,7 +119,9 @@
         "icon.button.@selected.@disabled.fill": "323245",
         "icon.button.@selected.@focused.border": "814F9E",
         "icon.button.@selected.@focused.fill": "49415C",
+        "icon.button.@selected.@focused.text": "B279F2",
         "icon.button.@selected.@focused.@hovered.fill": "49415C",
+        "icon.button.@selected.@focused.@hovered.text": "B279F2",
         "icon.button.@selected.@hovered.fill": "49415C",
         "icon.button.@selected.@hovered.text": "B279F2",
         "icon.button.@selected.@pressed.text": "B279F2",
