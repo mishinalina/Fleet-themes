@@ -34,7 +34,6 @@
         "button.border": "D1D1D1",
         "button.fill": "White",
         "button.text": "383838",
-        "button.@disabled.border": "D1D1D1",
         "button.@disabled.fill": "Transparent",
         "button.@disabled.text": "8C8C8C",
         "button.@focused.border": "87AFDA",
@@ -148,7 +147,6 @@
         "icon.button.@selected.@pressed.fill": "C2D9ED",
         "icon.button.@selected.@pressed.text": "389FD6",
 
-        "input.@disabled.border": "D1D1D1",
         "input.@disabled.fill": "Transparent",
         "input.@disabled.text": "8C8C8C",
         "input.@focused.border": "87AFDA",
@@ -185,8 +183,8 @@
         "selection.@dimmed.fill": "E0E0E0",
         "selection.@hovered.fill": "F0F0F0",
 
-        "separator.fill": "E3E5E8",
-        "mainSplit.separator.fill": "E3E5E8",
+        "separator.fill": "E1E3E6",
+        "mainSplit.separator.fill": "E1E3E6",
 
         "simpleToggle.circle.@disabled.fill": "White",
         "simpleToggle.circle.fill": "White",
